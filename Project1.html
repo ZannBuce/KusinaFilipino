@@ -12,8 +12,6 @@
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
   <style>
-
-
     body {
       background: lightcyan;
     }
@@ -51,8 +49,6 @@
     .w-100 {
       height: 100vh;
     }
-
-    
   </style>
 
 </head>
@@ -88,35 +84,45 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active" data-bs-interval="10000">
-        <img src="https://www.vacationhive.com/wp-content/uploads/2021/04/authentic-filipino-food-fb-banner.png" class="d-block w-100" alt="https://www.vacationhive.com/wp-content/uploads/2021/04/authentic-filipino-food-fb-banner.png">
+        <img src="https://www.vacationhive.com/wp-content/uploads/2021/04/authentic-filipino-food-fb-banner.png"
+          class="d-block w-100"
+          alt="https://www.vacationhive.com/wp-content/uploads/2021/04/authentic-filipino-food-fb-banner.png">
         <div class="carousel-caption">
           <h5>Kusina Filipino</h5>
           <p>We serve passion</p>
           <form class="d-flex" role="search">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <a href="Project1recipe.html"><button type="button" class="btn btn-outline-info">Search</button></a>
+            <button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#Testing">
+              Search
+            </button>
           </form>
         </div>
       </div>
       <div class="carousel-item" data-bs-interval="2000">
-        <img src="https://images.tpn.to/kk/fn/hl/ej/content.png" class="d-block w-100" alt="https://www.vacationhive.com/wp-content/uploads/2021/04/authentic-filipino-food-fb-banner.png">
+        <img src="https://images.tpn.to/kk/fn/hl/ej/content.png" class="d-block w-100"
+          alt="https://www.vacationhive.com/wp-content/uploads/2021/04/authentic-filipino-food-fb-banner.png">
         <div class="carousel-caption">
           <h5>Kusina Filipino</h5>
           <p>The future of tradition</p>
           <form class="d-flex" role="search">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <a href="Project1recipe.html"><button type="button" class="btn btn-outline-info">Search</button></a>
+            <button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#Testing">
+              Search
+            </button>
           </form>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="https://cdn.tasteatlas.com/images/dishes/4f8fa81ab1a5429c849fca30a7aa786c.jpg" class="d-block w-100" alt="https://www.vacationhive.com/wp-content/uploads/2021/04/authentic-filipino-food-fb-banner.png">
+        <img src="https://cdn.tasteatlas.com/images/dishes/4f8fa81ab1a5429c849fca30a7aa786c.jpg" class="d-block w-100"
+          alt="https://www.vacationhive.com/wp-content/uploads/2021/04/authentic-filipino-food-fb-banner.png">
         <div class="carousel-caption">
           <h5>Kusina Filipino</h5>
           <p>The flavors of nature</p>
           <form class="d-flex" role="search">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <a href="Project1recipe.html"><button type="button" class="btn btn-outline-info">Search</button></a>
+            <button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#Testing">
+              Search
+            </button>
           </form>
         </div>
       </div>
@@ -131,6 +137,39 @@
     </button>
   </div>
 
+  <!-- Modal Testing -->
+
+  <div class="modal fade" id="Testing" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Results</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <h2>Search Results about Filipino Dishes</h2> <br>
+          <ul>
+            <a href="Project1Results.html" target="_blank"><li>Turpis egestas pretium aenean pharetra magna ac placerat vestibulum lectus.</li></a>
+            <br>
+            <a href="Project1Results.html" target="_blank"><li>Semper quis lectus nulla at volutpat diam ut venenatis tellus.</li></a>
+            <br>
+            <a href="Project1Results.html" target="_blank"><li>Dui id ornare arcu odio ut sem.</li></a>
+            <br>
+            <a href="Project1Results.html" target="_blank"><li>Duis tristique sollicitudin nibh sit amet commodo nulla facilisi nullam.</li></a>
+            <br>
+            <a href="Project1Results.html" target="_blank"><li>Ut etiam sit amet nisl purus in mollis nunc.</li></a>
+            <br>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal End  -->
+
   <section class="about section-padding">
     <div class="container">
       <div class="row">
@@ -143,7 +182,8 @@
         <div class="col-sm-8 ps-lg-5 mt-md-5">
           <div>
             <h2>Our Goal</h2>
-            <p>We want to harness the power of food to improve the quality of life for everyone, now and in the future. Explore our collection of Filipino favorites that will make any Pinoy yearn for mom's home-cooked meals.
+            <p>We want to harness the power of food to improve the quality of life for everyone, now and in the future.
+              Explore our collection of Filipino favorites that will make any Pinoy yearn for mom's home-cooked meals.
             </p>
             <a href="Project1recipe.html"><button type="button" class="btn btn-info">Learn More</button></a>
           </div>
